@@ -1,0 +1,13 @@
+@media (min-width: map-get($breakpoints, "lg")) {
+  #app,
+  .max-container-width {
+    max-width: map-get($viewports, "lg");
+  }
+}
+
+@media (min-width: map-get($breakpoints, "xl")) {
+  #app,
+  .max-container-width {
+    width: map-get($viewports, "lg");
+  }
+}
